@@ -40,6 +40,10 @@ instructions for other platforms, and just in general, we recommend you see [Ras
    ```
    sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
    ```
+   ```
+   # void linux
+   sudo xbps-install -Su cmake cross-arm-none-eabi-gcc cross-arm-none-eabi-newlib cross-arm-none-eabi-libstdc++
+   ```
 1. Set up your project to point to use the Raspberry Pi Pico SDK
 
    * Either by cloning the SDK locally (most common) :
